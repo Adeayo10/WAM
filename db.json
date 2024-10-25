@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "title": "Modern Apartment in City Center",
+        "description": "A beautiful modern apartment located in the heart of the city.",
+        "price": 350000,
+        "address": {
+            "street": "123 Main St",
+            "city": "Metropolis",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "features": ["2 bedrooms", "2 bathrooms", "Balcony", "Gym"],
+        "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1598928506312-0c7a63b1ffb3"
+            
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Cozy Cottage in the Countryside",
+        "description": "A charming cottage surrounded by nature.",
+        "price": 250000,
+        "address": {
+            "street": "456 Country Rd",
+            "city": "Countryside",
+            "state": "VT",
+            "zip": "05001"
+        },
+        "features": ["3 bedrooms", "1 bathroom", "Garden", "Fireplace"],
+        "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://example.com/images/property2-2.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Luxury Villa with Ocean View",
+        "description": "A stunning villa with a breathtaking view of the ocean.",
+        "price": 1200000,
+        "address": {
+            "street": "789 Ocean Dr",
+            "city": "Seaside",
+            "state": "CA",
+            "zip": "90210"
+        },
+        "features": ["5 bedrooms", "4 bathrooms", "Swimming Pool", "Private Beach"],
+        "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://example.com/images/property3-2.jpg"
+        ]
+    },
+    
+       
+      
+        {
+          "id": 4,
+          "title": "Renovated Studio Apartment",
+          "description": "A bright and stylish studio apartment in a trendy neighborhood.",
+          "price": 180000,
+          "address": {
+            "street": "1011 Park Ave",
+            "city": "Trendyville",
+            "state": "CA",
+            "zip": "90001"
+          },
+          "features": ["Studio layout", "Modern appliances", "Pet-friendly"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1581941437271-679f00b07d5a"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Historic Brownstone in Bustling District",
+          "description": "A charming and spacious brownstone in a vibrant area.",
+          "price": 750000,
+          "address": {
+            "street": "1213 Elm St",
+            "city": "Bustlingburg",
+            "state": "MA",
+            "zip": "02108"
+          },
+          "features": ["4 bedrooms", "2.5 bathrooms", "High ceilings", "Original details"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1593630278024-2df1053f0d0b"
+          ]
+        },
+        {
+          "id": 6, "title": "Cozy Cabin in the Mountains",
+          "description": "A rustic and relaxing cabin with stunning mountain views.",
+          "price": 400000,
+          "address": {
+            "street": "1415 Mountain Rd",
+            "city": "High Peaks",
+            "state": "CO",
+            "zip": "80439"
+          },
+          "features": ["2 bedrooms", "1 bathroom", "Wood-burning fireplace", "Hot tub"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1580053329254-4d722b3242e9"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Modern Farmhouse in Quiet Suburb",
+          "description": "A spacious and stylish farmhouse in a peaceful neighborhood.",
+          "price": 500000,
+          "address": {
+            "street": "1617 Maple St",
+            "city": "Quietville",
+            "state": "TX",
+            "zip": "78756"
+          },
+          "features": ["4 bedrooms", "3 bathrooms", "Open floor plan", "Large backyard"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1567666879-e0f5b9efa3f6"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Secluded Beachfront Retreat",
+          "description": "A private and peaceful beachfront property with stunning ocean views.",
+          "price": 900000,
+          "address": {
+            "street": "1819 Beach Blvd",
+            "city": "Secluded Cove",
+            "state": "FL",
+            "zip": "33139"
+          },
+          "features": ["3 bedrooms", "2 bathrooms", "Private beach access", "Outdoor shower"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1581091010446-0b3b5f1e3b4b"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Ski-In/Ski-Out Chalet",
+          "description": "A luxurious chalet with direct access to the ski slopes.",
+          "price": 1500000,
+          "address": {
+            "street": "20121 Mountain View Dr",
+            "city": "Snowy Peaks",
+            "state": "UT",
+            "zip": "84060"
+          },
+          "features": ["5 bedrooms", "4 bathrooms", "Hot tub", "Ski storage"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1573497019700-3f1d1b2d0b6e"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Urban Loft with City Views",
+          "description": "A modern loft with panoramic views of the city skyline.",
+          "price": 800000,
+          "address": {
+            "street": "22123 Loft Ave",
+            "city": "Skyline City",
+            "state": "IL",
+            "zip": "60601"
+          },
+          "features": ["2 bedrooms", "2 bathrooms", "Floor-to-ceiling windows", "Rooftop terrace"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1598928506312-0c7a63b1ffb3"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Mountain View Retreat",
+          "description": "A peaceful retreat with stunning mountain views.",
+          "price": 600000,
+          "address": {
+            "street": "24125 Vista Dr",
+            "city": "Mountain Valley",
+            "state": "CO",
+            "zip": "80439"
+          },
+          "features": ["3 bedrooms", "2 bathrooms", "Wrap-around deck", "Fire pit"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1573497019700-3f1d1b2d0b6e"
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Lakefront Cabin with Dock",
+          "description": "A cozy cabin with a private dock on the lake.",
+          "price": 350000,
+          "address": {
+            "street": "26127 Lakeview Rd",
+            "city": "Lakeside",
+            "state": "MN",
+            "zip": "55001"
+          },
+          "features": ["2 bedrooms", "1 bathroom", "Boat dock", "Fireplace"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1573497019700-3f1d1b2d0b6e"
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Historic Townhouse in City Center",
+          "description": "A beautifully restored historic townhouse in the heart of the city.",
+          "price": 700000,
+          "address": {
+            "street": "28129 Main St",
+            "city": "Historic City",
+            "state": "PA",
+            "zip": "19103"
+          },
+          "features": ["4 bedrooms", "3 bathrooms", "Original details", "Courtyard"],
+          "images": [
+            "https://www.dbs.ie/images/default-source/logos/dbs-logo-2019-small.png?sfvrsn=ff5c6eea_2",
+            "https://images.unsplash.com/photo-1573497019700-3f1d1b2d0b6e"
+          ]
+        }
+]
