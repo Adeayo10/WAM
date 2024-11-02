@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate Listings</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -11,20 +20,21 @@
         <h1>Real Estate Listings</h1>
     </header>
     <nav aria-label="Main navigation">
+        <!-- Search bar with label for accessibility -->
         <label for="search-bar" class="visually-hidden">Search properties</label>
         <input type="text" id="search-bar" placeholder="Search properties..." aria-label="Search properties">
         <button type="button" id="search-button">Search</button>
-        <style>
-          
-        </style>
     </nav>
     <main id="content" role="main">
+        <!-- Container for property list -->
         <div id="property-list"></div>
+        <!-- Container for property details, hidden by default -->
         <div id="property-details" style="display: none;"></div>
     </main>
     <footer>
         <p>&copy; 2023 Real Estate Listings. All rights reserved.</p>
     </footer>
-    <script src="./js/main.js"></script>
+    <!-- Main JavaScript file -->
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>

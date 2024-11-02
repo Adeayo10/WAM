@@ -8,25 +8,25 @@
 }
 
 /*
-    2. Remove default margin
-  */
+  2. Remove default margin
+*/
 * {
   margin: 0;
 }
 
 /*
-    Typographic tweaks!
-    3. Add accessible line-height
-    4. Improve text rendering
-  */
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 /*
-    5. Improve media defaults
-  */
+  5. Improve media defaults
+*/
 img,
 picture,
 video,
@@ -37,8 +37,8 @@ svg {
 }
 
 /*
-    6. Remove built-in form typography styles
-  */
+  6. Remove built-in form typography styles
+*/
 input,
 button,
 textarea,
@@ -47,8 +47,8 @@ select {
 }
 
 /*
-    7. Avoid text overflows
-  */
+  7. Avoid text overflows
+*/
 p,
 h1,
 h2,
@@ -60,15 +60,14 @@ h6 {
 }
 
 /*
-    8. Create a root stacking context
-  */
+  8. Create a root stacking context
+*/
 #root,
 #__next {
   isolation: isolate;
 }
 
-/* josh commue*/
-
+/* General body styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -76,6 +75,7 @@ body {
   margin-bottom: 3rem; /* Same value as the footer height */
 }
 
+/* Header styling */
 header {
   background-color: #333;
   color: white;
@@ -83,6 +83,7 @@ header {
   text-align: center;
 }
 
+/* Footer styling */
 footer {
   background-color: #333;
   color: white;
@@ -94,13 +95,15 @@ footer {
   height: 3rem; /* Adjust the height as needed */
 }
 
+/* Navigation styling */
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
 }
-/*search */
+
+/* Search bar styling */
 #search-bar {
   padding: 10px;
   font-size: 16px;
@@ -110,6 +113,7 @@ nav {
   width: 300px;
 }
 
+/* Search button styling */
 #search-button {
   padding: 10px 20px;
   font-size: 16px;
@@ -123,7 +127,8 @@ nav {
 #search-button:hover {
   background-color: #0056b3;
 }
-/* label */
+
+/* Visually hidden elements */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -135,7 +140,7 @@ nav {
   border: 0;
 }
 
-/* List of the properties*/
+/* Property list styling */
 #property-list {
   display: flex;
   flex-wrap: wrap;
@@ -143,16 +148,12 @@ nav {
   padding: 1rem;
 }
 
-
-/* property card */
+/* Property card styling */
 .property-card {
   flex: 1 1 calc(33.333% - 1rem);
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
-}
-
-.property-card {
   position: relative;
   overflow: hidden;
 }
@@ -168,7 +169,7 @@ nav {
   transform: scale(1.1);
 }
 
-/* details in the property card */
+/* Property card details styling */
 .property-details {
   position: absolute;
   top: 0;
@@ -189,7 +190,7 @@ nav {
   opacity: 1;
 }
 
-/* property page*/
+/* Property details page styling */
 #property-details {
   padding: 1rem;
 }
@@ -205,17 +206,52 @@ nav {
 }
 
 #property-details p {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0; /* Add margin to paragraphs in property details */
 }
 
-/* media */
+/* Media styling */
 #media img {
   max-width: 100px;
   height: auto;
   margin: 0.5rem;
 }
 
-/* reservation form */
+/* Property details media carousel styling */
+.property-details-media {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 400px; /* Fixed height for the carousel */
+  position: relative;
+}
+
+.property-details-media .carousel-inner {
+  width: 100%;
+  height: 100%; /* Ensure the inner carousel takes the full height */
+  overflow: hidden;
+}
+
+.property-details-media .carousel-item img {
+  width: 100%;
+  height: 100%; /* Ensure images take the full height */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+.property-details-media .carousel-control-prev,
+.property-details-media .carousel-control-next {
+  width: 5%;
+  height: 100%; /* Ensure controls take the full height */
+  position: absolute;
+  top: 0;
+}
+
+.property-details-media .carousel-control-prev-icon,
+.property-details-media .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+/* Reservation form styling */
 #reservation-form {
   margin-top: 1rem;
 }
@@ -239,7 +275,7 @@ nav {
   background-color: #555;
 }
 
-/* media queries */
+/* Media queries for responsive design */
 @media (max-width: 600px) {
   #property-list {
     grid-template-columns: 1fr;
