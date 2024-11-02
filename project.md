@@ -80,7 +80,7 @@ The scope of this project includes:
 ## Site Map
 
 The site map outlines the different views and their relationships within the SPA. It helps in understanding the navigation flow and the hierarchy of the application. The site map for the property listing application is as follows:
-![site map](/images/sitemap.png)
+![site map](/images/siteMap.png)
 
 - **Home (/)**
 
