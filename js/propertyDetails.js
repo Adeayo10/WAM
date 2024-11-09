@@ -11,11 +11,11 @@ window.toggleDescription = function () {
 };
 export const propertyCardTemplate = (property) => `
   <div class="property-card">
-      <img src="${property.featuredMedia}" alt="${property.name}" class="property-image">
+      <img src="${property.featuredImage}" alt="${property.name}" class="property-image">
       <div class="property-details">
           <h2 class="property-name">${property.name}</h2>
-          <p class="properity-location">${property.origin}, ${property.roastedIn}</p>
-          <p class="property-price">Price: $${property.type}</p>
+          <p class="properity-location">${property.location}, </p>
+          <p class="property-price">Price: ${property.price}</p>
           <button onclick="viewProperty(${property.id})" class="view-button">View Property</button>
       </div>
   </div>
@@ -52,31 +52,31 @@ export const reservationFormTemplate = () => `
 
 export const propertyDetailsTemplate = (property) => `
     <div class="property-details-card">
-            <img src="${property.featuredMedia}" alt="${
+            <img src="${property.featuredImage}" alt="${
   property.name
 }" class="property-details-image">
             <div class="property-details-info">
                 <h2 class="property-details-name">${property.name}</h2>
-                <p class="property-details-origin"><strong>Origin:</strong> ${
-                  property.origin
+                <p class="property-details-bedrooms"><strong>Bedrooms:</strong> ${
+                  property.bedrooms
                 }</p>
-                <p class="property-details-roasted"><strong>Roasted In:</strong> ${
-                  property.roastedIn
+                <p class="property-details-bathrooms"><strong>Bathrooms:</strong> ${
+                  property.bathrooms
                 }</p>
                 <p class="property-details-type"><strong>Type:</strong> ${
                   property.type
                 }</p>
-                <p class="property-details-caffinated"><strong>Caffinated:</strong> ${
-                  property.caffinated
+                <p class="property-details-category"><strong>Category:</strong> ${
+                  property.category
                 }</p>
-                <p class="property-details-price"><strong>Price:</strong> $${
+                <p class="property-details-price"><strong>Price:</strong> ${
                   property.price ? property.price : "400"
                 }</p>
                 <p class="property-details-location"><strong>Location:</strong> ${
                   property.location ? property.location : ""
                 }</p>
                 <p class="property-details-energyRating"><strong>Energy Rating:</strong> ${
-                  property.energyRating ? property.energyRating : ""
+                  property.berRating ? property.berRating : ""
                 }</p>
                 <p class="property-details-details"><strong>Details:</strong> ${
                   property.details ? property.details : ""

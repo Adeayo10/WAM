@@ -77,16 +77,29 @@ document.addEventListener("DOMContentLoaded", () => {
   class PropertyController {
     static async handleSearch() {
       const properties = await PropertyService.loadContent("./db.json");
+      const searchTerm = searchBar.value.toLowerCase();
       const filteredProperties = properties.filter(
-        (property) =>
-          property.name.toLowerCase().includes(searchBar.value.toLowerCase()) ||
-          property.type.toLowerCase().includes(searchBar.value.toLowerCase()) ||
-          property.origin.toLowerCase().includes(searchBar.value.toLowerCase())
+      (property) =>
+        property.name.toLowerCase().includes(searchTerm) ||
+        property.location.toLowerCase().includes(searchTerm) ||
+        property.type.toLowerCase().includes(searchTerm) ||
+        property.category.toLowerCase().includes(searchTerm) ||
+        property.price.toLowerCase().includes(searchTerm) ||
+        property.berRating.toLowerCase().includes(searchTerm)
       );
+
       if (filteredProperties.length === 0) {
-        PropertyController.notFound();
-        return;
+      PropertyController.notFound();
+      return;
       }
+
+      // const sortBy = document.querySelector("#sort-by").value;
+      // filteredProperties.sort((a, b) => {
+      // if (a[sortBy] < b[sortBy]) return -1;
+      // if (a[sortBy] > b[sortBy]) return 1;
+      // return 0;
+      // });
+
       PropertyRenderer.displayProperties(filteredProperties);
     }
 
